@@ -1,20 +1,38 @@
-body {
+body { 
   background: black;
-  color: eaeaea;
+  color: #eaeaea;
 }
 
-#scoreboard{
-text-align: center;
-border: 2px solid white ;
-color: wheat;
+#scoreboard {
+  text-align: center;
+  border: 1px solid #eaeaea;
 }
-#grid{
+
+#grid {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
   width: 300px;
 }
-.square{
-  height: 100px;
+.square {
   width: 100px;
-  background-color: whitesmoke;
-  border: 1px solid black;
+  height: 100px;
+  background: #eaeaea;
+  box-shadow: inset 0 0 0 1px #333;
+}
 
+#start {
+  display: block;
+  margin: 10px auto;
+  width: 300px;
+  background: rgba(40, 120, 212, 0.653);
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #1090da;
+  color: white;
+  text-transform: uppercase;
+}
+
+.green-bg {
+  background: rgb(19, 223, 19);
 }
