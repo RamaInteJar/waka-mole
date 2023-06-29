@@ -1,0 +1,20 @@
+body {
+  background: black;
+  color: eaeaea;
+}
+
+#scoreboard{
+text-align: center;
+border: 2px solid white ;
+color: wheat;
+}
+#grid{
+  width: 300px;
+}
+.square{
+  height: 100px;
+  width: 100px;
+  background-color: whitesmoke;
+  border: 1px solid black;
+
+}
